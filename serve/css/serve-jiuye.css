@@ -1,0 +1,229 @@
+.subnav ul.top li:nth-of-type(7){
+		background: #5c5c5c;
+	}
+@media screen and (min-width:1000px ) {
+	.class .left ul li:nth-of-type(4) a .img .img_box:nth-of-type(2) img{
+		display: block;
+	}
+	.class .left ul li:nth-of-type(4) a .img .img_box:nth-of-type(1) img{
+		display: none;
+	}
+	.class .left ul li:nth-of-type(4){
+		border-bottom:  3px solid #fa9634;;
+	}
+	.class .right{
+		width:66.5% ;	
+		float: left;	
+	}	
+	.class .right h4{
+		color: #fa9634;
+		font-size: 1.8em;
+		font-weight: bold;
+		margin-top: 21px;
+	}
+	.class .right h4:nth-of-type(1){
+		margin-top: 0px;
+	}
+	.class .right h4:nth-of-type(2){
+		margin-bottom: 12px;
+		margin-top: 0px;
+	}
+	.class .right p:nth-of-type(1){
+		line-height: 35px;
+		font-size: 1.6em;
+		color: #222;
+		margin-bottom: 12px;
+	}
+	.class .right p:nth-of-type(2){
+		line-height: 35px;
+		font-size: 1.6em;
+		color: #222;		
+		margin-top: 9px;
+	}
+	.class .right p:nth-of-type(3){
+		margin-top: 7px;
+		line-height: 27px;
+		color: #222;
+		font-size: 1.6em;
+	}
+	.class .right ul{
+		margin-top: 13px;
+	}
+	.class .right ul li{
+		line-height: 28px;
+		font-size: 1.6em;
+		margin-top: 13px;
+		color: #222;
+	}
+	
+}
+@media screen and (min-width:720px) and (max-width:999px) {
+	.class .left ul li:nth-of-type(4) a .img .img_box:nth-of-type(2) img{
+		display: block;
+	}
+	.class .left ul li:nth-of-type(4) a .img .img_box:nth-of-type(1) img{
+		display: none;
+	}
+	.class .left ul li:nth-of-type(4){
+		border-bottom:  3px solid #fa9634;;
+	}
+	.class .right{
+		width:66.5% ;	
+		float: left;	
+	}
+		.class .right h4{
+		color: #fa9634;
+		font-size: 1.8em;
+		font-weight: bold;
+		margin-top: 15px;
+	}
+	.class .right h4:nth-of-type(1){
+		margin-top: 0px;
+	}
+	.class .right h4:nth-of-type(2){
+		margin-bottom: 12px;
+		margin-top: 0px;
+	}
+	.class .right p:nth-of-type(1){
+		line-height: 35px;
+		font-size: 1.6em;
+		color: #222;
+		margin-bottom: 12px;
+	}
+	.class .right p:nth-of-type(2){
+		line-height: 35px;
+		font-size: 1.6em;
+		color: #222;		
+		margin-top: 9px;
+	}
+	.class .right p:nth-of-type(3){
+		margin-top: 7px;
+		line-height: 27px;
+		color: #222;
+		font-size: 1.6em;
+	}
+	.class .right ul{
+		margin-top: 13px;
+	}
+	.class .right ul li{
+		line-height: 28px;
+		font-size: 1.6em;
+		margin-top: 13px;
+		color: #222;
+	}
+}
+@media screen and (max-width:719px) and (min-width:480px) {
+	.class .left ul li:nth-of-type(4) a .img .img_box:nth-of-type(2) img{
+		display: block;
+	}
+	.class .left ul li:nth-of-type(4) a .img .img_box:nth-of-type(1) img{
+		display: none;
+	}
+	.class .right{
+		width:100% ;
+		clear: both;	
+		padding-bottom: 40px;	
+	}
+		.class .right h4{
+		color: #fa9634;
+		font-size: 1.8em;
+		font-weight: bold;
+		margin-top: 9px;
+	}
+	.class .right h4:nth-of-type(1){
+		margin-top: 0px;
+	}
+	.class .right h4:nth-of-type(2){
+		margin-bottom: 12px;
+		margin-top: 0px;
+	}
+	.class .right p:nth-of-type(1){
+		line-height: 35px;
+		font-size: 1.6em;
+		color: #222;
+		margin-bottom: 5px;
+	}
+	.class .right p:nth-of-type(2){
+		line-height: 25px;
+		font-size: 1.6em;
+		color: #222;		
+		margin-top: 9px;
+	}
+	.class .right p:nth-of-type(3){
+		margin-top: 7px;
+		line-height: 27px;
+		color: #222;
+		font-size: 1.6em;
+	}
+	.class .right p{
+		padding-left: 32px;
+	}
+	.class .right ul{
+		margin-top: 7px;
+		padding-left:32px ;
+	}
+	.class .right ul li{
+		line-height: 24px;
+		font-size: 1.6em;
+		margin-top: 15px;
+		color: #222;
+	}
+}
+@media screen and (max-width:479px){
+	.class .left ul li:nth-of-type(4) a .img .img_box:nth-of-type(2) img{
+		display: block;
+	}
+	.class .left ul li:nth-of-type(4) a .img .img_box:nth-of-type(1) img{
+		display: none;
+	}
+	.class .right{
+		width:100% ;
+		clear: both;	
+	}
+	.class .right{
+		line-height: 25px;
+		font-size: 1.4em;		
+		padding-bottom: 35px;
+	}
+		.class .right h4{
+		color: #fa9634;
+		font-size: 1.2em;
+		font-weight: bold;
+		margin-top: 8px;
+	}
+	.class .right h4:nth-of-type(1){
+		margin-top: 0px;
+	}
+	.class .right h4:nth-of-type(2){
+		margin-bottom: 12px;
+		margin-top: 0px;
+	}
+	.class .right p{
+		font-size: 16px;
+		color: #222;
+		line-height: 35px;
+		padding-left: 32px;
+	}
+	.class .right p:nth-of-type(1){
+		margin-bottom: 12px;
+	}
+	.class .right p:nth-of-type(2){	
+		margin-top: 9px;
+	}
+	.class .right p:nth-of-type(3){
+		margin-top: 7px;
+		line-height: 27px;
+		
+	}
+	.class .right ul{
+		margin-top: 13px;
+		padding-left: 32px;
+	}
+	.class .right ul li{
+		line-height: 24px;
+		font-size: 16px;		
+		margin-top: 10px;
+		color: #222;
+	}
+	
+}

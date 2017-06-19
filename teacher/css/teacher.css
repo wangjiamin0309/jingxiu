@@ -1,0 +1,224 @@
+.subnav ul.top li:nth-of-type(6){
+		background: #5c5c5c;
+	}
+@media screen and (min-width:1000px ) {
+	.container_teacher{
+		padding-top: 80px;
+		max-width: 100%;
+		padding-bottom: 100px;
+	}
+	.teacher{
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 40px 3% 0 3%;
+	}
+	.teacher h4{
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.teacher p:nth-of-type(1){
+		color: #888888;
+		text-align: center;
+		margin-top: 19px;
+		font-size: 24px;
+	}
+	.teacher ul{
+		margin-top: 57px;
+	}
+	.teacher ul li{
+		float: left;
+		height: 800px;
+		width:22% ;
+		margin-right: 4%;
+	}
+	.teacher ul li:nth-of-type(4),.teacher ul li:nth-of-type(8),.teacher ul li:nth-of-type(12){margin-right: 0;}
+	.teacher ul li .img{
+		display: block;
+		width: 100%;
+	}
+	.teacher ul li .img img{
+		display: block;
+		width: 100%;
+	}
+	.teacher ul li .label{
+		display: block !important;
+	}
+	.teacher ul li div.box{
+		line-height: 24px;
+		color: #888888;
+		margin-top: 16px;
+		text-indent:12.727272% ;
+		font-size: 1.4em;
+	}
+	.teacher ul li h5{
+		color:#888 ;
+		font-size: 1.8em;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	.teacher ul li span{
+		line-height: 24px;
+		margin-top: 1px;
+		color: #888;
+		font-size: 1.4em;
+	}
+	.teacher ul li .img1{display: none;}
+}
+@media screen and (min-width:720px) and (max-width:999px) {
+	.container_teacher{
+		padding-top: 20px;
+		max-width: 100%;
+		}
+	.teacher{
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 20px 3% 0 3%;
+	}
+	.teacher h4{
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.teacher p:nth-of-type(1){
+		color: #888888;
+		text-align: center;
+		margin-top: 19px;
+		font-size: 24px;
+	}
+	.teacher ul{
+		margin-top: 57px;
+		padding-left: 2%;
+	}
+	.teacher ul li{
+		float: left;
+		height: 800px;
+		width:30% ;
+		margin-right: 4%;
+	}
+	.teacher ul li:nth-of-type(3),.teacher ul li:nth-of-type(6),.teacher ul li:nth-of-type(9),.teacher ul li:nth-of-type(12){margin-right: 0;}
+	.teacher ul li .img{
+		display: block;
+		width: 100%;
+	}
+	.teacher ul li .img img{
+		display: block;
+		width: 100%;
+	}
+	.teacher ul li div.box{
+		line-height: 24px;
+		color: #888888;
+		margin-top: 16px;
+		text-indent:12.727272% ;
+		font-size: 1.4em;
+	}
+	.teacher ul li h5{
+		color:#888 ;
+		font-size: 1.8em;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	.teacher ul li span{
+		line-height: 24px;
+		margin-top: 1px;
+		color: #888;
+		font-size: 1.4em;
+	}
+	.teacher ul li .img1{display: none;}
+	
+
+	
+}
+@media screen and (max-width:719px) {
+		.container_teacher{		
+		max-width: 100%;
+		padding-bottom: 100px;
+	}
+	.teacher{
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 40px 3% 0 3%;
+	}
+	.teacher h4{
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.teacher p:nth-of-type(1){
+		color: #888888;
+		text-align: center;
+		margin-top: 19px;
+		font-size: 24px;
+	}
+	.teacher ul{
+		margin-top: 57px;
+		padding-left:4% ;	
+	}
+	.teacher ul li{
+		float: left;
+		width:45%;
+		margin-right: 6%;
+		margin-bottom: 20px;	
+	}
+	.teacher ul li:nth-of-type(2),.teacher ul li:nth-of-type(4),.teacher ul li:nth-of-type(6),.teacher ul li:nth-of-type(8),.teacher ul li:nth-of-type(10),.teacher ul li:nth-of-type(12){margin-right: 0;}	
+	.teacher ul li .img1{display: block; width: 100%;}
+	.teacher ul li .img1 img{display: block; width: 100%;}
+	
+	.teacher ul li div.label{
+		width: 80%;
+		height: auto;
+		display: none;
+		background: white;
+		padding: 20px;
+		position:fixed;
+         left:50%;
+         top:50%;
+         transform: translate(-50%,-50%);
+         z-index: 100;
+         box-shadow: 0 0 10px #000000;
+	}.teacher ul li.hover div.label{
+		display: block;
+	}
+	.teacher ul li.hover:before{
+		    content: " ";
+		    display: block;
+		    position: fixed;
+		    width: 100%;
+		    height: 100%;
+		    background: #000000;
+		    opacity: .7;
+		    z-index: 1;
+		    top: 0;
+		    left: 0;
+	}
+	.teacher ul li div.label .img{
+		width: 100px;
+		float: right;
+		margin: 10px;
+		display: block;
+	}
+	.teacher ul li div.label .img img{
+		width: 100px;
+	}
+	.teacher ul li div.box{
+		line-height: 24px;
+		color: #888888;
+		margin-top: 8px;
+		text-indent:28px ;
+		font-size: 14px;
+	}
+	.teacher ul li h5{
+		color:#888 ;
+		font-size: 1.8em;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	.teacher ul li span{
+		line-height: 24px;
+		margin-top: 1px;
+		color: #888;
+		font-size: 1.4em;
+	}
+	
+}
+

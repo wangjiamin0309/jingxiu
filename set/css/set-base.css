@@ -1,0 +1,448 @@
+html {color: #000; background: #FFF; font-size: 62.5%; font-family: "Microsoft YaHei"; }
+.subnav ul.top li:nth-of-type(3){
+		background: #5c5c5c;
+	}
+@media screen and (min-width:1000px ) {
+	.container_set{		
+		max-width: 100%;
+		padding-top:80px;
+	}
+	.class{
+		max-width: 1000px;
+		margin: 0 auto;
+		padding-top: 40px;
+		padding-bottom: 110px;
+	}
+	.class .left{
+		float: left;
+		width:29% ;
+		margin-right:4.5% ;		
+	}
+	.class .left ul {
+		border-right:1px solid #bbb;
+	}
+	.class .left ul li{
+		width: 90%;
+		border-bottom: 3px solid white;
+		height: 65px;		
+		padding-top: 15px;
+		padding-left:4% ;
+	}
+	
+	.class .left ul li a{
+		display: block;
+	}
+	.class .left ul li a .img{
+		width: 24.78%;
+		display: block;
+		margin-top: 10px;
+	}
+	.class .left ul li a .img .img_box{
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.class .left ul li a span{
+		width: 73.86%;
+		padding-left: 0%;
+		font-size: 2.4em;
+		color: #222;
+		font-family:"Microsoft YaHei" ;
+		padding-top: 11px;
+	}
+	.class .left ul li a span:nth-of-type(1){
+		display: block;	
+	}
+	.class .left ul li a span:nth-of-type(2) {
+		clear: both;
+		text-align: center;
+		display: none;
+		margin: 0 auto;
+		padding-left:0;
+	}
+	.class .left ul li a span:nth-of-type(1) i{
+		font-style: normal;
+		
+	}
+	.class .left ul li a .img .img_box img{
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+	.class .left ul li a .img .img_box:nth-of-type(2) img{
+		display: none;
+	}
+	
+	.class .left ul li:hover{
+		border-bottom: 3px solid #fa9634;
+	}
+	.class .left ul li:hover a .img .img_box:nth-of-type(2) img{
+		display: block;
+	}
+	.class .left ul li:hover a .img .img_box:nth-of-type(1) img{
+		display: none;
+	}
+	.class .right{
+		width:66.5% ;	
+		float: left;	
+		
+	
+	}
+	.class .right h4{
+		font-size: 1.8em;
+		font-weight: bold;
+		color: #fa9634;
+		line-height: 18px;
+	}	
+	.class .right p{
+		font-size: 1.6em;
+		line-height: 29px;
+		margin-top: 7px;
+		margin-bottom: 8px;
+	}	
+	
+	.class .right .img{
+		display: block;
+		margin-top: 17px;
+		margin-bottom: 32px;
+		width: 100%;
+	}
+	.class .right .img img{
+		width: 100%;
+		display: block;
+	}
+}
+@media screen and (min-width:720px) and (max-width:999px) {
+	.container_set{		
+		max-width: 100%;		
+	}
+	.class{
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 40px 3% 50px 3%;
+	}
+	.class .left{
+		float: left;
+		width:29% ;
+		margin-right:4.5% ;		
+	}
+	.class .left ul {
+		border-right:1px solid #bbb;
+	}
+	.class .left ul li{
+		width: 90%;
+		border-bottom: 3px solid white;
+		height: 65px;		
+		padding-top: 15px;
+		padding-left:4% ;
+	}
+	
+	.class .left ul li a{
+		display: block;
+	}
+	.class .left ul li a .img{
+		width: 23.78%;
+		display: block;
+		margin-top: 10px;
+	}
+	.class .left ul li a .img .img_box{
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.class .left ul li a span{
+		width: 65.86%;
+		padding-left: 7.35%;
+		font-size: 2.2em;
+		color: #222;
+		font-family:"Microsoft YaHei" ;
+		padding-top: 11px;
+	}
+	.class .left ul li a span:nth-of-type(1){
+		display: block;	
+	}
+	.class .left ul li a span:nth-of-type(1) i{
+		font-style: normal;
+		display: none;
+	}
+	.class .left ul li a span:nth-of-type(2) {
+		clear: both;
+		text-align: center;
+		display: none;
+		margin: 0 auto;
+		padding-left:0;
+	}
+	.class .left ul li a .img .img_box img{
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+	.class .left ul li a .img .img_box:nth-of-type(2) img{
+		display: none;
+	}	
+	.class .right{
+		width:66.5% ;	
+		float: left;		
+	}
+	.class .right h4{
+		font-size: 1.8em;
+		font-weight: bold;
+		color: #fa9634;
+		line-height: 18px;
+	}	
+	.class .right p{
+		font-size: 1.6em;
+		line-height: 29px;
+		margin-top: 7px;
+		margin-bottom: 14px;
+	}		
+	.class .right .img{
+		display: block;
+		margin-top: 17px;
+		margin-bottom: 32px;
+		width: 100%;
+	}
+	.class .right .img img{
+		width: 100%;
+		display: block;
+	}
+}
+@media screen and (max-width:719px) and (min-width:480px) {
+	.container_set{		
+		max-width: 100%;
+		padding-top: 15px;
+	}
+	.class{
+		max-width: 1000px;
+		margin: 0 auto;		
+		padding: 0 3% 0 3%;
+	}
+	.class .left{
+		width:100% ;
+		clear: both;
+		
+	}
+	.class .left ul{
+		margin-bottom: 10px;
+	}
+	.class .left ul li{
+		width: 33.33%;
+		border-bottom: 3px solid white;	
+		height: 70px;	
+		float: left;
+		margin-bottom: 10px;
+		
+	}
+	
+	.class .left ul li a{
+		display: block;
+	}
+	.class .left ul li a .img{
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+	.class .left ul li:nth-of-type(1) a .img{
+		padding-top: 8px;
+	}
+	.class .left ul li:nth-of-type(3) a .img{
+		padding-top: 5px;
+	}
+	.class .left ul li:nth-of-type(4) a .img{
+		padding-top: 5px;
+	}
+	.class .left ul li:nth-of-type(7) a .img{
+		padding-top: 2px;
+	}
+	.class .left ul li:nth-of-type(9) a .img{
+		padding-top: 4px;
+	}
+	.class .left ul li a .img .img_box{
+		margin: 0 auto;
+		width: 100%;
+	}	
+	.class .left ul li a span{
+		width: 65.86%;
+		padding-left: 7.35%;
+		font-size: 1.4em;
+		color: #222;
+		font-family:"Microsoft YaHei" ;
+		padding-top: 5px;
+	}
+	.class .left ul li a span:nth-of-type(1){
+		display: none;	
+	}
+	.class .left ul li a span:nth-of-type(2) {
+		clear: both;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		padding-left:0;
+		font-size: 1.8em;
+		height: 30px;
+		line-height: 30px;		
+	}
+	
+	.class .left ul li a .img .img_box img{
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+	.class .left ul li a .img .img_box:nth-of-type(2) img{
+		display: none;
+	}
+	
+	.class .right{
+		width:100% ;
+		clear: both;	
+		padding-bottom: 40px;	
+	}
+	.class .right h4{
+		width: 100%;
+		height: 24px;
+		line-height: 24px;
+		color: #fa9634;
+		font-size: 1.8em;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	.class .right p{
+		width: 100%;
+		color: #222222;
+		line-height: 28px;
+		font-size: 1.6em;
+		margin-bottom: 15px;
+		margin-top: 7px;
+		
+	}
+	
+	.class .right .img{
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 18px;
+		width: 100%;
+	}
+	.class .right .img img{
+		width: 100%;
+		display: block;
+	}
+}
+@media screen and (max-width:479px){
+	.container_set{		
+		max-width: 100%;
+		padding-top: 15px;
+	}
+	.class{
+		max-width: 1000px;
+		margin: 0 auto;		
+		padding: 0 3% 0 3%;
+	}
+	.class .left{
+		width:100% ;
+		clear: both;
+		
+	}
+	.class .left ul{
+		margin-bottom: 10px;
+	}
+	.class .left ul li{
+		width: 33.33%;
+		border-bottom: 3px solid white;	
+		height: 70px;	
+		float: left;
+		margin-bottom: 10px;
+		
+	}
+	
+	.class .left ul li a{
+		display: block;
+	}
+	.class .left ul li a .img{
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+	.class .left ul li:nth-of-type(1) a .img{
+		padding-top: 8px;
+	}
+	.class .left ul li:nth-of-type(3) a .img{
+		padding-top: 5px;
+	}
+	.class .left ul li:nth-of-type(4) a .img{
+		padding-top: 5px;
+	}
+	.class .left ul li:nth-of-type(7) a .img{
+		padding-top: 2px;
+	}
+	.class .left ul li:nth-of-type(9) a .img{
+		padding-top: 4px;
+	}
+	.class .left ul li a .img .img_box{
+		margin: 0 auto;
+		width: 100%;
+	}	
+	.class .left ul li a span{
+		width: 65.86%;
+		padding-left: 7.35%;
+		font-size: 1.4em;
+		color: #222;
+		font-family:"Microsoft YaHei" ;
+		padding-top: 5px;
+	}
+	.class .left ul li a span:nth-of-type(1){
+		display: none;	
+	}
+	.class .left ul li a span:nth-of-type(2) {
+		clear: both;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		padding-left:0;
+		font-size: 1.6em;
+		height: 30px;
+		line-height: 30px;		
+	}
+	
+	.class .left ul li a .img .img_box img{
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+	.class .left ul li a .img .img_box:nth-of-type(2) img{
+		display: none;
+	}
+	
+	.class .right{
+		width:100% ;
+		clear: both;	
+		padding-bottom: 40px;	
+	}
+	.class .right .img{
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 18px;
+		width: 100%;
+	}
+	.class .right .img img{
+		width: 100%;
+		display: block;
+	}
+	.class .right h4{
+		width: 100%;
+		height: 24px;
+		line-height: 24px;
+		color: #fa9634;
+		font-size: 16px;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	.class .right p{
+		width: 100%;
+		color: #222222;
+		line-height: 28px;
+		font-size: 16px;
+		margin-top: 7px;
+		margin-bottom: 13px;
+			}
+	
+}
